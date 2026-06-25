@@ -1,6 +1,5 @@
-num1 =int(input("Enter your first mark: "))
-num2 =int(input("Enter your second mark: "))
+for counter in range(1,6):
+    print("Loop iteration number: " + str(counter))
+    print("Keep building consistency!")
 
-total_marks = num1+num2
-
-print("Your total combined mark is: " + str(total_marks))
+print ("The loop has officially finished running.")
