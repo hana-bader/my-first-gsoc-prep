@@ -1,8 +1,8 @@
-for number in range(1,11):
+countdown = 5 
 
-    if number % 2==0:
-        print(str(number) + " is an EVEN number.")
-    else:
-        print(str(number) + " is an ODD number.")
 
-print("Analysis completely done!")
+while countdown > 0:
+    print("T-Minus: " + str(countdown))
+    countdown = countdown - 1
+
+print("Blast off! The loop is broken.")
