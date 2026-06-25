@@ -1,5 +1,8 @@
-for counter in range(1,6):
-    print("Loop iteration number: " + str(counter))
-    print("Keep building consistency!")
+for number in range(1,11):
 
-print ("The loop has officially finished running.")
+    if number % 2==0:
+        print(str(number) + " is an EVEN number.")
+    else:
+        print(str(number) + " is an ODD number.")
+
+print("Analysis completely done!")
