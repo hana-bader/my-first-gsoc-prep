@@ -1,8 +1,11 @@
-countdown = 5 
+groceries = ["Milk", "Eggs", "Apple"]
+
+print(groceries)
 
 
-while countdown > 0:
-    print("T-Minus: " + str(countdown))
-    countdown = countdown - 1
+print("The first item is: " + groceries[0])
 
-print("Blast off! The loop is broken.")
+groceries.append("Banana")
+
+print("Updated list:")
+print(groceries)
