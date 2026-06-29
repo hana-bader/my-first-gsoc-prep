@@ -1,13 +1,14 @@
-cart_prices = [100,250,50,500,120]
-total_cost = 0
+def check_admission(rank,college_name):
+    print("----------------------")
+    print("Analyzing parameters for " + college_name + "...")
 
-for price in cart_prices:
-
-    if price > 200:
-        discounted_price = price * 0.90
-        total_cost = total_cost + discounted_price
+    if rank <= 16000:
+        print("Result: High probability under your Muslim quota reservation!")
     else:
-        total_cost = total_cost + price
+        print("Result: Check backup safety strategies.")
 
-print("The final smart cart total is: INR " + str(total_cost))
 
+check_admission(15545, "GECK Kozhikode")
+check_admission(8200, "NSS Palakkad")
+check_admission(24000,"Private Self-Financing")
+check_admission(5000, "CET Trivandrum")
